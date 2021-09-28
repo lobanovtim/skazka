@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Сладкая сказка</title>
+    <link rel="stylesheet" href="https://use.typekit.net/jgu8gsf.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="body">
+    <header class="header">
+        <div class="header__wrapper">
+            <button class="header__burger-menu-button" type="button">
+                <span class="visually-hidden">Боковое меню</span>
+                <span class="header__burger-menu-icon"></span>
+            </button>
+            <aside class="header__burger-menu burger-menu">
+                <div class="burger-menu__wrapper">
+                    <div class="burger-menu__container">
+                        <div class=" burger-menu__search burger-search__wrapper burger-search">
+                            <input class="burger-search__input" type="search" id="berger-search" placeholder="Введите ключевое слово...">
+                            <label class="visually-hidden" for="berger-search">Поиск по сайту</label>
+                            <button class="burger-search__search-button" type="button">
+                                <span class="visually-hidden">
+                                    Найти
+                                </span>
+                            </button>
+                        </div>
+                        <button class="burger-menu__close-button" type="button">
+                            <span class="visually-hidden">
+                                Закрыть меню
+                            </span>
+                        </button>
+                    </div>
+                    <ul class="burger-menu__list">
+                        <li class="burger-menu__item">
+                            <a href="#" class="burger-menu__link">
+                                Акции
+                            </a>
+                            <ul class="burger-menu__sub-list sub-burger-menu-list">
+                                <li class="sub-burger-menu-list__item">
+                                    <a href="#" class="sub-burger-menu-list__link">
+                                        Текущие акции
+                                    </a> 
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="burger-menu__item">
+                            <a href="#" class="burger-menu__link">
+                                Новости
+                            </a>
+                        </li>
+                        <li class="burger-menu__item">
+                            <a href="#" class="burger-menu__link">
+                                О нас
+                            </a>
+                            <ul class="burger-menu__sub-list sub-burger-menu-list">
+                                <li class="sub-burger-menu-list__item">
+                                    <a href="#" class="sub-burger-menu-list__link">
+                                        Миссия компании
+                                    </a> 
+                                </li>
+                                <li class="sub-burger-menu-list__item">
+                                    <a href="#" class="sub-burger-menu-list__link">
+                                        Основные ценности компании
+                                    </a> 
+                                </li>
+                                <li class="sub-burger-menu-list__item">
+                                    <a href="#" class="sub-burger-menu-list__link">
+                                        Собственное производство
+                                    </a> 
+                                </li>
+                                <li class="sub-burger-menu-list__item">
+                                    <a href="#" class="sub-burger-menu-list__link">
+                                        Новости
+                                    </a> 
+                                </li>
+                                <li class="sub-burger-menu-list__item">
+                                    <a href="#" class="sub-burger-menu-list__link">
+                                        Благотворительность
+                                    </a> 
+                                </li>
+                                <li class="sub-burger-menu-list__item">
+                                    <a href="#" class="sub-burger-menu-list__link">
+                                        Сертификаты и заключения
+                                    </a> 
+                                </li>
+                                <li class="sub-burger-menu-list__item">
+                                    <a href="#" class="sub-burger-menu-list__link">
+                                        СМИ
+                                    </a> 
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="burger-menu__item">
+                            <a href="#" class="burger-menu__link">
+                                Продукция
+                            </a>
+                            <ul class="burger-menu__sub-list sub-burger-menu-list">
+                                <li class="sub-burger-menu-list__item">
+                                    <a href="#" class="sub-burger-menu-list__link">
+                                        Новинки
+                                    </a> 
+                                </li>
+                                <li class="sub-burger-menu-list__item">
+                                    <a href="#" class="sub-burger-menu-list__link">
+                                        Бренды
+                                    </a> 
+                                </li>
+                                <li class="sub-burger-menu-list__item">
+                                    <a href="#" class="sub-burger-menu-list__link">
+                                        Лицензии
+                                    </a> 
+                                </li>
+                                <li class="sub-burger-menu-list__item">
+                                    <a href="#" class="sub-burger-menu-list__link">
+                                        Где купить
+                                    </a> 
+                                </li>
+                                <li class="sub-burger-menu-list__item">
+                                    <a href="#" class="sub-burger-menu-list__link">
+                                        Текущие акции
+                                    </a> 
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="burger-menu__item">
+                            <a href="#" class="burger-menu__link">
+                                Партнёрам
+                            </a>
+                            <ul class="burger-menu__sub-list sub-burger-menu-list">
+                                <li class="sub-burger-menu-list__item">
+                                    <a href="#" class="sub-burger-menu-list__link">
+                                        Преимущества компании
+                                    </a> 
+                                </li>
+                                <li class="sub-burger-menu-list__item">
+                                    <a href="#" class="sub-burger-menu-list__link">
+                                        География присутствия
+                                    </a> 
+                                </li>
+                                <li class="sub-burger-menu-list__item">
+                                    <a href="#" class="sub-burger-menu-list__link">
+                                        Стать партнёром
+                                    </a> 
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="burger-menu__item">
+                            <a href="#" class="burger-menu__link">
+                                Карьера
+                            </a>
+                            <ul class="burger-menu__sub-list sub-burger-menu-list">
+                                <li class="sub-burger-menu-list__item">
+                                    <a href="#" class="sub-burger-menu-list__link">
+                                        Наша команда
+                                    </a> 
+                                </li>
+                                <li class="sub-burger-menu-list__item">
+                                    <a href="#" class="sub-burger-menu-list__link">
+                                        Перспективы и обучения
+                                    </a> 
+                                </li>
+                                <li class="sub-burger-menu-list__item">
+                                    <a href="#" class="sub-burger-menu-list__link">
+                                        Вакансии
+                                    </a> 
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="burger-menu__item">
+                            <a href="#" class="burger-menu__link">
+                                Контакты
+                            </a>
+                            <ul class="burger-menu__sub-list sub-burger-menu-list">
+                                <li class="sub-burger-menu-list__item">
+                                    <a href="#" class="sub-burger-menu-list__link">
+                                        Как добраться
+                                    </a> 
+                                </li>
+                                <li class="sub-burger-menu-list__item">
+                                    <a href="#" class="sub-burger-menu-list__link">
+                                        Написать сообщение
+                                    </a> 
+                                </li>
+                                <li class="sub-burger-menu-list__item">
+                                    <a href="#" class="sub-burger-menu-list__link">
+                                        Отзывы
+                                    </a> 
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="burger-menu__contacts burger-menu-contacts">
+                        <dl class="burger-menu-contacts__list">
+                            <div class="burger-menu-contacts__item">
+                              <dt class="burger-menu-contacts__appeal">
+                                Телефон:
+                              </dt>
+                              <dd class="burger-menu-contacts__difinition burger-menu-contacts__phone">
+                                <a class="burger-menu-contacts__phone-link" href="tel:+74957875570">
+                                    +7 495 787-55-70
+                                </a>
+                              </dd>
+                              <dd class="burger-menu-contacts__difinition burger-menu-contacts__phone">
+                                <a class="burger-menu-contacts__phone-link" href="tel:+74954562231">
+                                    +7 495 456-22-31
+                                </a>
+                              </dd>
+                            </div>
+                            <div class="burger-menu-contacts__item">
+                                <dt class="burger-menu-contacts__appeal">
+                                    Адрес:
+                                </dt>
+                                <dd class="burger-menu-contacts__difinition burger-menu-contacts__adress">
+                                    <address class="burger-menu-contacts__adress-name">
+                                        125413 Москва, ул. Солнечногорская, д.4, стр.6
+                                    </address>
+                                </dd>
+                            </div>
+                            <div class="burger-menu-contacts__item">
+                              <dt class="burger-menu-contacts__appeal">
+                                E-mail:
+                              </dt>
+                              <dd class="burger-menu-contacts__difinition burger-menu-contacts__email">
+                                <a class="burger-menu-contacts__email-link" href="info@sladskaz.ru">info@sladskaz.ru</a>
+                              </dd>
+                            </div>
+                        </dl>
+                    </div>
+                    <div class="burger-menu__social burger-social">
+                        <ul class="burger-social__list">
+                            <li class="burger-social__item burger-social__item--vk">
+                                <a href="#" class="burger-social__link">
+                                    <img width="60" height="60" src="img/vk-burger.svg" alt="Наша страничка в Вконтакте">
+                                </a>
+                            </li>
+                            <li class="burger-social__item burger-social__item--ok">
+                                <a href="#" class="burger-social__link">
+                                    <img width="60" height="60" src="img/ok-burger.svg" alt="Наша страничка в Одноклассниках">
+                                </a>
+                            </li>
+                            <li class="burger-social__item burger-social__item--inst">
+                                <a href="#" class="burger-social__link">
+                                    <img width="60" height="60" src="img/inst-burger.svg" alt="Наша страничка в Инстаграм">
+                                </a>
+                            </li>
+                            <li class="burger-social__item burger-social__item--fb">
+                                <a href="#" class="burger-social__link">
+                                    <img width="60" height="60" src="img/fb-burger.svg" alt="Наша страничка на Фейсбук">
+                                </a>
+                            </li>
+                            <li class="burger-social__item burger-social__item--tik-tok">
+                                <a href="#" class="burger-social__link">
+                                    <img width="60" height="60" src="img/tik-tok-burger.svg" alt="Наш профиль в Тик-ток">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+            <a href="index.html" class="header__logo">
+                <img class="header__logo-img" src="img/logo.svg" width="298" height="51" alt="Логотип компании «Сладкая сказка»">
+            </a>
+            <nav class="main-nav">
+                <ul class="main-nav__list site-list">
+                    <li class="site-list__item">
+                        <a href="#" class="site-list__link">
+                            Акции
+                        </a>
+                        <ul class="site-list__sub-list sub-site-list">
+                            <li class="sub-site-list__item">
+                                <a href="#" class="sub-site-list__link">
+                                    Текущие акции
+                                </a> 
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="site-list__item">
+                        <a href="#" class="site-list__link">
+                            О нас
+                        </a>
+                        <ul class="site-list__sub-list sub-site-list">
+                            <li class="sub-site-list__item">
+                                <a href="#" class="sub-site-list__link">
+                                    Миссия компании
+                                </a> 
+                            </li>
+                            <li class="sub-site-list__item">
+                                <a href="#" class="sub-site-list__link">
+                                    Основные ценности компании
+                                </a> 
+                            </li>
+                            <li class="sub-site-list__item">
+                                <a href="#" class="sub-site-list__link">
+                                    Собственное производство
+                                </a> 
+                            </li>
+                            <li class="sub-site-list__item">
+                                <a href="#" class="sub-site-list__link">
+                                    Новости
+                                </a> 
+                            </li>
+                            <li class="sub-site-list__item">
+                                <a href="#" class="sub-site-list__link">
+                                    Мероприятия
+                                </a> 
+                            </li>
+                            <li class="sub-site-list__item">
+                                <a href="#" class="sub-site-list__link">
+                                    Благотворительность
+                                </a> 
+                            </li>
+                            <li class="sub-site-list__item">
+                                <a href="#" class="sub-site-list__link">
+                                    Сертификаты и заключения
+                                </a> 
+                            </li>
+                            <li class="sub-site-list__item">
+                                <a href="#" class="sub-site-list__link">
+                                    СМИ
+                                </a> 
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="site-list__item">
+                        <a href="#" class="site-list__link">
+                            Продукция
+                        </a>
+                        <ul class="site-list__sub-list sub-site-list">
+                            <li class="sub-site-list__item">
+                                <a href="#" class="sub-site-list__link">
+                                    Новинки
+                                </a> 
+                            </li>
+                            <li class="sub-site-list__item">
+                                <a href="#" class="sub-site-list__link">
+                                    Бренды
+                                </a> 
+                            </li>
+                            <li class="sub-site-list__item">
+                                <a href="#" class="sub-site-list__link">
+                                    Лицензии
+                                </a> 
+                            </li>
+                            <li class="sub-site-list__item">
+                                <a href="#" class="sub-site-list__link">
+                                    Каталог
+                                </a> 
+                            </li>
+                            <li class="sub-site-list__item">
+                                <a href="#" class="sub-site-list__link">
+                                    Где купить
+                                </a> 
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="site-list__item">
+                        <a href="#" class="site-list__link">
+                            Партнёрам
+                        </a>
+                        <ul class="site-list__sub-list sub-site-list">
+                            <li class="sub-site-list__item">
+                                <a href="#" class="sub-site-list__link">
+                                    Преимущества компании
+                                </a> 
+                            </li>
+                            <li class="sub-site-list__item">
+                                <a href="#" class="sub-site-list__link">
+                                    География присутствия
+                                </a> 
+                            </li>
+                            <li class="sub-site-list__item">
+                                <a href="#" class="sub-site-list__link">
+                                    Стать партнёром
+                                </a> 
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="site-list__item">
+                        <a href="#" class="site-list__link">
+                            Карьера
+                        </a>
+                        <ul class="site-list__sub-list sub-site-list">
+                            <li class="sub-site-list__item">
+                                <a href="#" class="sub-site-list__link">
+                                    Наша команда
+                                </a> 
+                            </li>
+                            <li class="sub-site-list__item">
+                                <a href="#" class="sub-site-list__link">
+                                    Перспективы и обучения
+                                </a> 
+                            </li>
+                            <li class="sub-site-list__item">
+                                <a href="#" class="sub-site-list__link">
+                                    Вакансии
+                                </a> 
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="site-list__item">
+                        <a href="#" class="site-list__link">
+                            Контакты
+                        </a>
+                        <ul class="site-list__sub-list sub-site-list">
+                            <li class="sub-site-list__item">
+                                <a href="#" class="sub-site-list__link">
+                                    Как добраться
+                                </a> 
+                            </li>
+                            <li class="sub-site-list__item">
+                                <a href="#" class="sub-site-list__link">
+                                    Написать сообщение
+                                </a> 
+                            </li>
+                            <li class="sub-site-list__item">
+                                <a href="#" class="sub-site-list__link">
+                                    Отзывы
+                                </a> 
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="main-nav__search search">
+                    <svg class="search__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Поиск по сайту">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10 3C6.13401 3 3 6.13401 3 10C3 13.866 6.13401 17 10 17C13.866 17 17 13.866 17 10C17 6.13401 13.866 3 10 3ZM0 10C0 4.47715 4.47715 0 10 0C15.5228 0 20 4.47715 20 10C20 15.5228 15.5228 20 10 20C4.47715 20 0 15.5228 0 10Z"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16.9941 15.5314L22.651 21.1882C23.2758 21.8131 23.2758 22.8261 22.651 23.451C22.0261 24.0758 21.0131 24.0758 20.3882 23.451L14.7314 17.7941C14.1065 17.1693 14.1065 16.1562 14.7314 15.5314C15.3562 14.9065 16.3693 14.9065 16.9941 15.5314Z"/>
+                    </svg>
+                    <div class="search__container">
+                        <div class="search__wrapper">
+                            <button class="search__button-close" type="button">
+                                <span class="visually-hidden">
+                                    Закрыть поле поиска
+                                </span>
+                            </button>
+                            <input class="search__input" type="search" id="search" placeholder="Введите ключевое слово...">
+                            <label class="visually-hidden" for="search">Поиск по сайту</label>
+                            <button class="search__search-button" type="button">
+                                <span class="visually-hidden">
+                                    Найти
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+    </main>
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <a class="footer__logo-link" href="index.html">
+                <img class="footer__logo-img" src="img/logo-footer.svg" width="356" height="59" alt="Логотип компании «Сладкая сказка»">
+            </a>
+            <ul class="footer__phone-list">
+                <li class="footer__phone-item">
+                    <a class="footer__phone-link" href="tel:+74957875570">
+                        +7 495 787-55-70
+                    </a>
+                </li>
+                <li class="footer__phone-item">
+                    <a class="footer__phone-link" href="tel:+74954562231">
+                        +7 495 456-22-31
+                    </a>
+                </li>
+            </ul>
+            <ul class="footer__nav-list">
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="#">
+                        О нас
+                    </a>
+                </li>
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="#">
+                        Новости
+                    </a>
+                </li>
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="#">
+                        Продукция
+                    </a>
+                </li>
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="#">
+                        Отзывы
+                    </a>
+                </li>
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="#">
+                        Партнёрам
+                    </a>
+                </li>
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="#">
+                        Карьера
+                    </a>
+                </li>
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="#">
+                        Контакты
+                    </a>
+                </li>
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="#">
+                        Где купить
+                    </a>
+                </li>
+            </ul>
+            <div class="footer__info-wrapper">
+                <a class="footer__email-link" href="info@sladskaz.ru">info@sladskaz.ru</a>
+                <a class="footer__conf-info" href="#">Политика конфиденциальности</a>
+            </div>
+            <div class="footer__social footer-social">
+                <ul class="footer-social__list">
+                    <li class="footer-social__item footer-social__item--vk">
+                        <a class="footer-social__link" href="#" aria-label="Наша страничка в Вконтакте">
+                            <svg class="footer-social__img" width="22" height="14" viewBox="0 0 22 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M18.9341 8.69166C19.6639 9.40415 20.4341 10.0745 21.0887 10.8588C21.3778 11.2074 21.6515 11.5671 21.8609 11.9716C22.1577 12.5466 21.8889 13.1793 21.3733 13.2137L18.1683 13.2122C17.3417 13.2808 16.6822 12.948 16.1278 12.3829C15.684 11.9309 15.2731 11.4498 14.8464 10.9826C14.6715 10.7916 14.4884 10.6119 14.2697 10.4699C13.8321 10.1859 13.4523 10.2728 13.2023 10.7292C12.9477 11.1933 12.8899 11.7072 12.8649 12.2245C12.8306 12.9792 12.6024 13.1776 11.8443 13.2122C10.2242 13.2886 8.6866 13.0434 7.25822 12.2261C5.99891 11.5056 5.02236 10.4885 4.17239 9.33693C2.51748 7.09465 1.25014 4.63074 0.111107 2.0978C-0.14528 1.52713 0.0422219 1.2208 0.671878 1.20996C1.71745 1.18964 2.76288 1.19109 3.80968 1.20851C4.23463 1.21473 4.51595 1.45846 4.68003 1.85992C5.24572 3.25086 5.9379 4.57421 6.80674 5.80085C7.03812 6.12743 7.27405 6.454 7.61002 6.68386C7.9817 6.93837 8.26468 6.85402 8.43954 6.43998C8.55049 6.17745 8.59906 5.89468 8.62407 5.6135C8.70691 4.64614 8.71782 3.68044 8.57254 2.71647C8.48334 2.11486 8.14448 1.7254 7.54417 1.61156C7.23783 1.55352 7.28344 1.43953 7.43177 1.26467C7.68938 0.963109 7.93168 0.775391 8.41467 0.775391H12.0368C12.6071 0.887935 12.7337 1.14411 12.8118 1.71789L12.8149 5.74137C12.8087 5.96349 12.9258 6.62264 13.3259 6.76966C13.6461 6.87433 13.8572 6.61816 14.0493 6.41511C14.9166 5.49466 15.5355 4.40688 16.0885 3.2805C16.3339 2.78521 16.5449 2.27085 16.7494 1.75692C16.9009 1.37556 17.1386 1.18791 17.5682 1.19622L21.0543 1.19933C21.1577 1.19933 21.2623 1.20085 21.3624 1.21798C21.9498 1.31809 22.1108 1.57079 21.9294 2.14443C21.6435 3.04442 21.0873 3.79443 20.5434 4.5479C19.9621 5.35234 19.3403 6.12924 18.7638 6.93844C18.2341 7.67739 18.2761 8.04986 18.9341 8.69166Z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-social__item footer-social__item--ok">
+                        <a class="footer-social__link" href="#" aria-label="Наша страничка в Одноклассниках">
+                            <svg class="footer-social__img" width="16" height="25" viewBox="0 0 16 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.99998 13.529C11.829 13.529 14.9332 10.5004 14.9332 6.76448C14.9332 3.02852 11.8291 0 7.99998 0C4.17086 0 1.06682 3.02857 1.06682 6.76453C1.07152 10.4985 4.17286 13.5244 7.99998 13.529ZM7.99998 3.12208C10.0618 3.12208 11.7332 4.75283 11.7332 6.76453C11.7332 8.77622 10.0618 10.407 7.99998 10.407C5.93812 10.407 4.26671 8.77622 4.26671 6.76453C4.26671 4.75283 5.93817 3.12208 7.99998 3.12208Z"/>
+                                <path d="M14.7913 16.7344C15.5448 16.2502 15.9988 15.4292 15.9998 14.5489C16.0103 13.8183 15.5878 13.1475 14.915 12.8265C14.2238 12.4897 13.3965 12.5656 12.7817 13.0222C9.93264 15.0488 6.06837 15.0488 3.21928 13.0222C2.6036 12.568 1.77766 12.4922 1.08598 12.8265C0.413543 13.1474 -0.00919783 13.8176 0.000151969 14.5478C0.00175193 15.428 0.455593 16.2487 1.20868 16.7333C2.17486 17.3602 3.22703 17.8507 4.33396 18.1903C4.52171 18.2472 4.71545 18.2999 4.9153 18.3485L1.69192 21.4237C0.846334 22.2242 0.825885 23.5419 1.64632 24.3669C2.46675 25.1919 3.81727 25.2119 4.6629 24.4114C4.6805 24.3947 4.6978 24.3778 4.7148 24.3605L8.00008 21.0428L11.2918 24.3668C12.1115 25.1924 13.4621 25.2134 14.3083 24.4136C15.1545 23.6138 15.176 22.2961 14.3563 21.4705C14.3391 21.4532 14.3217 21.4362 14.3039 21.4195L11.0859 18.3474C11.2857 18.2975 11.4802 18.2444 11.6693 18.1882C12.775 17.8499 13.8262 17.3604 14.7913 16.7344Z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-social__item footer-social__item--inst">
+                        <a class="footer-social__link" href="#" aria-label="Наша страничка в Инстаграм">
+                            <svg class="footer-social__img" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.125 0H6.875C3.07863 0 0 3.07863 0 6.875V15.125C0 18.9214 3.07863 22 6.875 22H15.125C18.9214 22 22 18.9214 22 15.125V6.875C22 3.07863 18.9214 0 15.125 0ZM19.9375 15.125C19.9375 17.7787 17.7787 19.9375 15.125 19.9375H6.875C4.22125 19.9375 2.0625 17.7787 2.0625 15.125V6.875C2.0625 4.22125 4.22125 2.0625 6.875 2.0625H15.125C17.7787 2.0625 19.9375 4.22125 19.9375 6.875V15.125Z"/>
+                                <path d="M11 5.5C7.96262 5.5 5.5 7.96262 5.5 11C5.5 14.0374 7.96262 16.5 11 16.5C14.0374 16.5 16.5 14.0374 16.5 11C16.5 7.96262 14.0374 5.5 11 5.5ZM11 14.4375C9.10525 14.4375 7.5625 12.8947 7.5625 11C7.5625 9.10388 9.10525 7.5625 11 7.5625C12.8947 7.5625 14.4375 9.10388 14.4375 11C14.4375 12.8947 12.8947 14.4375 11 14.4375Z"/>
+                                <path d="M16.9126 5.82039C17.3174 5.82039 17.6455 5.49227 17.6455 5.08752C17.6455 4.68276 17.3174 4.35464 16.9126 4.35464C16.5079 4.35464 16.1798 4.68276 16.1798 5.08752C16.1798 5.49227 16.5079 5.82039 16.9126 5.82039Z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-social__item footer-social__item--fb">
+                        <a class="footer-social__link" href="#" aria-label="Наша страничка на Фейсбук">
+                            <svg class="footer-social__img" width="12" height="23" viewBox="0 0 12 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.4463 0.0046815L8.59342 0C5.38831 0 3.31703 2.17339 3.31703 5.53728V8.09034H0.448587C0.20072 8.09034 0 8.29585 0 8.54936V12.2484C0 12.502 0.200949 12.7072 0.448587 12.7072H3.31703V22.0412C3.31703 22.2947 3.51775 22.5 3.76561 22.5H7.50811C7.75598 22.5 7.9567 22.2945 7.9567 22.0412V12.7072H11.3106C11.5584 12.7072 11.7592 12.502 11.7592 12.2484L11.7605 8.54936C11.7605 8.42764 11.7132 8.31107 11.6292 8.22493C11.5452 8.13879 11.4307 8.09034 11.3117 8.09034H7.9567V5.92608C7.9567 4.88585 8.19907 4.35778 9.52401 4.35778L11.4458 4.35707C11.6935 4.35707 11.8942 4.15156 11.8942 3.89829V0.463469C11.8942 0.210434 11.6937 0.00514965 11.4463 0.0046815Z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-social__item footer-social__item--tik-tok">
+                        <a class="footer-social__link" href="#" aria-label="Наша страничка в Тик-ток">
+                            <svg class="footer-social__img" width="20" height="24" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.33 5.27179C16.9293 5.27179 14.9763 3.22229 14.9763 0.703125C14.9763 0.314758 14.6763 0 14.3062 0H10.7177C10.3478 0 10.0476 0.314758 10.0476 0.703125V16.1422C10.0476 17.6232 8.89932 18.828 7.48805 18.828C6.07678 18.828 4.92863 17.6232 4.92863 16.1422C4.92863 14.6611 6.07678 13.4562 7.48805 13.4562C7.85814 13.4562 8.15809 13.1415 8.15809 12.7531V8.98737C8.15809 8.59918 7.85814 8.28424 7.48805 8.28424C3.3591 8.28424 0 11.8094 0 16.1422C0 20.475 3.3591 24 7.48805 24C11.617 24 14.9763 20.475 14.9763 16.1422V9.30817C16.3097 10.0543 17.7938 10.4438 19.33 10.4438C19.7001 10.4438 20 10.129 20 9.74066V5.97491C20 5.58673 19.7001 5.27179 19.33 5.27179Z"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                <p class="footer-social__signature">
+                    Подписывайтесь на нас в социальных группах и следите за новостями
+                </p>
+            </div>
+            <div class="footer__copyrigth">
+                <p class="footer__copyright-text">Разработка сайта &mdash;</p>
+                <a class="footer__copyright-logo-link" href="https://itrack.ru">
+                    <img class="footer__copyright-logo" src="img/iTrack-logo.svg" width="55" height="12" alt="Логотип компании iTrack">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
